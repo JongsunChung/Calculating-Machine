@@ -50,7 +50,7 @@ class RoundedButton extends JButton {
     @Override
     protected void paintBorder(Graphics g) {
         g.setColor(Color.lightGray); 		// 테두리 색상
-        g.drawRoundRect(0, 0, getWidth() - 1, getHeight() - 1, radius, radius); // 둥근 테두리 그리기
+        g.drawRoundRect(1, 1, getWidth() - 3, getHeight() - 3, radius, radius); // 둥근 테두리 그리기
     }
 
     @Override
