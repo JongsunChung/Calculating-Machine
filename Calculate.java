@@ -365,9 +365,9 @@ public class Calculate extends JFrame implements ActionListener {
         logButton.setFont(new Font("Arial", Font.PLAIN, 18));
         divButton.setFont(new Font("Arial", Font.PLAIN, 18));
         
-        mulButton.setFont(new Font("Arial", Font.PLAIN, 18));
-        subButton.setFont(new Font("Arial", Font.PLAIN, 18));
-        addButton.setFont(new Font("Arial", Font.PLAIN, 18));
+        mulButton.setFont(new Font("Arial", Font.PLAIN, 24));
+        subButton.setFont(new Font("Arial", Font.PLAIN, 24));
+        addButton.setFont(new Font("Arial", Font.PLAIN, 24));
 
         plusminusButton.setFont(new Font("Arial", Font.PLAIN, 18));
         dotButton.setFont(new Font("Arial", Font.PLAIN, 18));
